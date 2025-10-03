@@ -1,0 +1,159 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+    
+</head>
+
+<body>
+    <video autoplay loop muted plays-inline class="bgvideo" width="100%">
+        <source src="159050 (540p).mp4" type="video/mp4">
+
+    </video>
+    <center>
+    <h2>Uzma Khan (JS1- 060)</h2>
+    <h2>Calculator</h2>
+
+    <fieldset class="container">
+        <input type="text" class="box"  id="inpt">
+
+
+        <div class="calculator">
+
+            <button onclick = " clr()">AC</button>
+            <button onclick = " clr1()">Del</button>
+            <button onclick = " press('%')">%</button>
+            <button onclick = " press('/')">/</button>
+
+        </div>
+
+        <div class="calculator">
+
+            <button onclick = " press(7)">7</button>
+            <button onclick = " press(8)">8</button>
+            <button onclick = " press(9)">9</button>
+            <button onclick = " press('*')">*</button>
+
+        </div>
+
+        <div class="calculator">
+
+            <button onclick = " press(4)">4</button>
+            <button onclick = " press(5)">5</button>
+            <button onclick = " press(6)">6</button>
+            <button onclick = " press('+')">+</button>
+
+        </div>
+
+        <div class="calculator">
+
+            <button onclick = " press(1)">1</button>
+            <button onclick = " press(2)">2</button>
+            <button onclick = " press(3)">3</button>
+            <button onclick = " press('-')">-</button>
+
+        </div>
+
+        <div class="calculator">
+
+            <button onclick = " press(0)">0</button>
+            <button onclick = " press('00')">00</button>
+            <button onclick = " press('.')">.</button>
+            <button onclick = " eq()">=</button>
+
+        </div>
+
+
+
+
+    </fieldset>
+    </center>
+
+    ,<SCript src="index.js"> </SCript>
+    
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Advanced Calculator</title>
+</head>
+<body>
+  <video autoplay loop muted playsinline class="bgvideo">
+    <source src="159050 (540p).mp4" type="video/mp4" />
+  </video>
+  <h2>Advanced Calculator 🧮</h2>
+
+  <fieldset class="container">
+    <input type="text" class="box" id="inpt" readonly />
+
+    <!-- Scientific Functions -->
+    <div class="calculator">
+      <button onclick="press('Math.sin(')">sin</button>
+      <button onclick="press('Math.cos(')">cos</button>
+      <button onclick="press('Math.tan(')">tan</button>
+      <button onclick="press('Math.log10(')">log</button>
+    </div>
+
+    <div class="calculator">
+      <button onclick="press('Math.log(')">ln</button>
+      <button onclick="press('Math.sqrt(')">√</button>
+      <button onclick="press('**2')">x²</button>
+      <button onclick="press('**')">xʸ</button>
+    </div>
+
+    <div class="calculator">
+      <button onclick="press('Math.PI')">π</button>
+      <button onclick="press('Math.E')">e</button>
+      <button onclick="press('(')">(</button>
+      <button onclick="press(')')">)</button>
+    </div>
+
+    <!-- Standard Functions -->
+    <div class="calculator">
+      <button onclick="clr()">AC</button>
+      <button onclick="clr1()">Del</button>
+      <button onclick="press('%')">%</button>
+      <button onclick="press('/')">÷</button>
+    </div>
+
+    <div class="calculator">
+      <button onclick="press(7)">7</button>
+      <button onclick="press(8)">8</button>
+      <button onclick="press(9)">9</button>
+      <button onclick="press('*')">×</button>
+    </div>
+
+    <div class="calculator">
+      <button onclick="press(4)">4</button>
+      <button onclick="press(5)">5</button>
+      <button onclick="press(6)">6</button>
+      <button onclick="press('-')">−</button>
+    </div>
+
+    <div class="calculator">
+      <button onclick="press(1)">1</button>
+      <button onclick="press(2)">2</button>
+      <button onclick="press(3)">3</button>
+      <button onclick="press('+')">+</button>
+    </div>
+
+    <div class="calculator">
+      <button onclick="press(0)">0</button>
+      <button onclick="press('00')">00</button>
+      <button onclick="press('.')">.</button>
+      <button onclick="eq()">=</button>
+    </div>
+  </fieldset>
+
+  <script src="index.js"></script>
+</body>
+</html>
